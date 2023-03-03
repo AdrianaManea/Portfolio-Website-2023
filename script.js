@@ -30,7 +30,7 @@ function PageTransitions() {
 				contr.classList.remove('active');
 			})
 
-			// e.target.classList.add('active');
+			e.target.classList.add('active');
 
 			// hide other sections
 			sections.forEach((sect) => {
